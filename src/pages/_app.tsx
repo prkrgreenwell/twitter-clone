@@ -5,6 +5,7 @@ import { api } from "~/utils/api";
 import "~/styles/globals.css";
 import Head from "next/head";
 import { SideNav } from "~/components/SideNav";
+import { NewTweetForm } from "~/components/NewTweetForm";
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
